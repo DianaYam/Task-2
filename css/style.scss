@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after { /* псевдораспорка */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 300;
+  max-width: 100%;
+  min-width: 320px;
+}
+
